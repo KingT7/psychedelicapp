@@ -3,7 +3,6 @@ import Image from 'next/image';
 import psych from './psych.jpg';
 
 
-
 function Navbar(){
 
  
@@ -27,17 +26,13 @@ function Navbar(){
         <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item active">
-                    <a className="nav-link"> <Link href="/">Home </Link> <span className="sr-only">(current)</span></a>
+                    <a className="nav-link"> <Link href='Home'>Home </Link> <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link"><Link href="/">Info</Link></a>
+                    <a className="nav-link"><Link href='Info'>Info</Link></a>
                 </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dropdown</a>
-                    <div className="dropdown-menu">
-                        <a className="dropdown-item" href="#">Action 1</a>
-                        <a className="dropdown-item" href="#">Action 2</a>
-                    </div>
+                <li className="nav-item">
+         <a className="nav-link"><Link href='ContactUs'>Contact Us</Link></a>
                 </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">
